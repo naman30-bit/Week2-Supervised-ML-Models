@@ -1,0 +1,25 @@
+=================================================================
+YUVaintern WEEK 2 - SUPERVISED MACHINE LEARNING
+=================================================================
+
+REGRESSION RESULTS (Scikit-learn Diabetes dataset)
+            Model     MAE    RMSE  R2 Score
+Linear Regression 42.7941 53.8534    0.4526
+              KNN 42.7817 54.4933    0.4395
+    Random Forest 44.3766 54.7235    0.4348
+    Decision Tree 47.0454 59.7408    0.3264
+
+CLASSIFICATION RESULTS (Breast Cancer Wisconsin dataset)
+              Model  Accuracy  Precision  Recall  F1 Score  ROC-AUC
+Logistic Regression    0.9825     0.9861  0.9861    0.9861   0.9954
+      Random Forest    0.9561     0.9589  0.9722    0.9655   0.9927
+                KNN    0.9561     0.9589  0.9722    0.9655   0.9788
+      Decision Tree    0.9386     0.9577  0.9444    0.9510   0.9342
+
+Best classification model by F1 Score: Logistic Regression
+Confusion matrix:
+ [[41  1]
+ [ 1 71]]
+
+Saved CSV metrics, report, confusion matrix and charts in outputs/
+=================================================================
